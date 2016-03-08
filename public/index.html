@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Shop Mall</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="photo-header" class="text-center">
+                <div id="photo">
+                    <img src="pacman.jpg" alt="photo">
+                </div>
+                <div class="text-header">
+                    <h1>Welcome to Shopping Mall</h1>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-6">
+          <div class="box">
+            <center>
+              <h2>Coca Cola</h2>
+              <img src="img/cola.png" alt="CocaCola"  height="210" width="200"/>
+              <div class="button" data-barcode='ITEM000000'>
+                <button id="cola_button">Buy Cola<span id = "cola_number"></span></button>
+              </div>
+            </center>
+          </div>
+          <br><br>
+          <div class="box">
+            <center>
+              <h2>Apple</h2>
+              <img src="img/apple.png" alt="Apple"  height="210" width="200"/>
+              <div class="button" data-barcode='ITEM000002'>
+                <button id="apple_button">Buy Apple<span id = "apple_number"></span></button>
+              </div>
+            </center>
+          </div>
+          <br><br>
+          <div class="box">
+            <center>
+              <h2>Noodel</h2>
+              <img src="img/noodles.png" alt="Noodles"  height="210" width="200"/>
+              <div class="button" data-barcode='ITEM000005'>
+                <button id="noodle_button">Buy Noodle<span id = "noodle_number"></span></button>
+              </div>
+            </center>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-md-6">
+          <div class="box">
+            <center>
+              <h2>Sprite</h2>
+              <img src="img/sprite.png" alt="Sprite"  height="210" width="200"/>
+              <div class="button" data-barcode='ITEM000001'>
+                <button id="sprite_button">Buy Sprite<span id = "sprite_number"></span></button>
+              </div>
+            </center>
+          </div>
+          <br><br>
+          <div class="box">
+            <center>
+              <h2>Litchi</h2>
+              <img src="img/litchi.png" alt="Litchi"  height="210" width="200"/>
+              <div class="button" data-barcode='ITEM000003'>
+                <button id="litchi_button">Buy Litchi<span id = "litchi_number"></span></button>
+              </div>
+            </center>
+          </div>
+          <br><br>
+          <div class="box">
+            <center>
+              <h2>Battery</h2>
+              <img src="img/battery.png" alt="Battery"  height="210" width="200"/>
+              <div class="button" data-barcode='ITEM000004'>
+                <button id="battery_button">Buy Battery<span id = "battery_number"></span></button>
+              </div>
+            </center>
+          </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+      <br><br><br>
+      <center>
+        <div class="col-md-12">
+          <div class="Go_To_Chart">
+            <button class="chart_button" style="height:50px;width:200px" onclick="window.location='checkout.html'">Add to Chart</button>
+          </div>
+        </div>
+    </center>
+    <br><br><br><br><br>
+    </div>
+
+  </div>
+
+
+<script src="jquery-2.2.1.min.js"></script>
+<script src="application.js"></script>
+<script src="redis.js"></script>
+</body>
+</html>
